@@ -1,5 +1,5 @@
 var Site = function(){
-	this.symbol = "MSFT";
+	this.symbol = "";
 };
 
 Site.prototype.Init = function(){
@@ -13,7 +13,7 @@ Site.prototype.GetQuote = function(){
 	// store the site context.
 	var that = this;
 
-	// pull the HTTP REquest
+	// pull the HTTP request
 	$.ajax({
 		url: "/quote?symbol=" + that.symbol,
 		method: "GET",

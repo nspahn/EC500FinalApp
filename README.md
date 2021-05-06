@@ -68,9 +68,14 @@ I have decided to do a little of both regarding the GUI. Matlab lib plot has the
 
 ## Update 4: (5-3-21)
 
-I wrote some code to translate a python 2 solution that was far too complicated. As it goes after some googling I found stock-price-alerts which I can use with a configuration file to send alerts. 
+I wrote some code to translate a python 2 solution that was far too complicated. As it goes after some googling I found stock-price-alerts which I can use with a configuration file to send alerts.
 
 ## Update 5: (5-5-21)
-Finally, working on integration testing, I hope everything works well from here as it's not a lot that is being integrated. It's not as independent an app as I envisioned at the genesis of the design process, but it merged technical and practical teachings acquired from projects earlier in the semester.  I'm proud I could build something like this, which I would not have had the skill to do before this class. I will also take with me the process for modular development and building tests that reduced the timeline requirements of the project. 
+
+Finally, working on integration testing, I hope everything works well from here as it's not a lot that is being integrated. It's not as independent an app as I envisioned at the genesis of the design process, but it merged technical and practical teachings acquired from projects earlier in the semester.  I'm proud I could build something like this, which I would not have had the skill to do before this class. I will also take with me the process for modular development and building tests that reduced the timeline requirements of the project.
 
 ## Update 6/Demo 2: (5-6-21)
+
+The final product was very excellent. I did end up going with flask over dash because my previous experience in this class made it the easier choice for GUI. I was able to route my separate functions to different portions of the webpage to reflect best the projects we did earlier in the semester. If I were to do this project again, I would have done more work on my unit tests as While I felt I did them, I could have gotten more utility out of them had there been more time. I would have preferred to integrate the stock alert function into an HTML page, but it was too challenging with the dependencies giving me issues. The price alert function can be configured through a basic configuration yml file. The app's functions mostly stayed the same, but there was less focus on integrating more than one trading strategy as the first one took quite a bit of debugging. Overall this was a great project to showcase what I have learned about databases, APIs, and frameworks to build a more practical and professional application.
+![Final Flask Demo](Documents/Flask-Demo.gif "Dash Page Demo")
+![Alert Config](Documents/AlertConfig.png "Alert Config")
