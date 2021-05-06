@@ -59,7 +59,7 @@ At this point in development, much of the application's functionality has at lea
 
 At this point, I have decided I am going to go with Dash. I also learned how to do unit testing within Pycharm, which can run localized tests as I change things that will help test each function. The unit tests currently pass basic tests. I am looking to move on to integration testing next while integrating the dash GUI with updates from the database files. I am not sure if I will incorporate the Matlab plot results into the plot, but I will try to export the data used to build the Plotly visualization to get around this. I am having trouble integrating my local unit tests with the github workspac. I will try to get these tests working on github as well as locally. I am considering splitting up unit tests to my local machine and integration testing on githubn but both have advantages locally and withevery push so I am going to keep trying to do both.
 
-![back testing gif](/Documents/Dash-Demo.png "a title")
+![Dash Demo](/Documents/Dash-Demo.png "Dash Page")
 
 ## Update 3: (5-3-21)
 
