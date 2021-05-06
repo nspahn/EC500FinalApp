@@ -49,6 +49,6 @@ The Stub is the user stories and basic three functions outlined with how to acco
 
 At this point in development, much of the application's functionality has at least a skeleton build. The GUI leaves a lot to be desired. In the Stub, I outlined the basic functionality. Trying to build things out modularly prepares the unit tests' overall success before moving on to the integration testing. Currently, the idea is for the GUI to tie everything together with a file that can call all the functional components and save them to a database. SQL and CSV have different advantages, and the database choice will depend on where I can make the most progress on the GUI. I am currently using Tkinter to build a local experience, but I am having some issues with permissions and interacting in the database. Dash seems like an alternative that looks a lot better, and if I can implement it correctly, it provides a way to create this whole project utilizing a python framework to take care of the HTML/CSS and JS. Tkinter also has the issue that it needs to take in the current outputs from the Matlab plot, and it is not simple to integrate this visualization into an existing window. In favor of Tkinker is that Authentication is simple, and I know how to use it with a current database.
 
-![tkinker GUI login](loginGUI.png "tkinker GUI login")
-![plot figure](BTTestingFig.png "a title")
-![back testing gif](BackTestingExample.gif "a title")
+![tkinker GUI login](loginGUI.PNG "tkinker GUI login")
+![plot figure](BTTestingFig.png "plot figure]")
+![back testing gif](BackTestingExample.gif "back testing gif")
